@@ -1,0 +1,18 @@
+Machine Learning is a category of algorithm that allows the software to become more accurate  in predicting outcomes
+without being explicitly programmed. The basic premise of machine learning is to build an algorithm that can receive input data
+and use statistical analysis to predict an output while updating outputs as new data becomes available.
+
+The process involved in machine learning are similar to that of data making and predictive modeling. Both require searching
+through data to look for patterns and adjusting program actions accordingly.
+
+Shopping on internet, Fraud Detection, Spam Filtering, Network Security, Predictive Maintenance etc.
+
+Machine learning algorithm are often categorised as supervised and unsupervised. Supervised Learning requires requires data
+scientists to provide both input and desired output, in addition to furnishing feedback about this accuracy of prediction
+during the algorithm training.
+
+Unsupervised algorithm do not nee to be trained with desired outcome data. Instead they use an interactive approach called deep
+learning to review data annd arrive at a conclusion. Also called Neural Network. These neural networks work by combining through
+millions of examples of training data and automatically identifying often subtle relation between many variables. Once trained
+it uses its pool of knowledge to interpret output for new data.
+

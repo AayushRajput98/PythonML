@@ -1,0 +1,68 @@
+import pandas as pd, numpy as np
+df=pd.read_csv("c:\\users\\lenovo\\desktop\\Data.csv")
+p=pd.DataFrame(df)
+print(p)
+de=pd.read_excel("C:\\Users\\LENOVO\\Documents\\Assignment_Sheet.xlsx","Sheet1")
+print(de)
+row,column=de.shape
+data=[('Aayush','Rajput'),
+      ('Aayush', 'Rajput')]
+df=pd.DataFrame(data,columns=['Name','Lastname'])
+print(df)
+print()
+print()
+df=pd.DataFrame(np.random.randn(5,3), index=['a','b','c','d','e'], columns=['a','b','c'])
+print(df)
+print()
+print()
+df.iloc[0:2,2]=np.nan
+df.iloc[2:4,1]=np.nan
+df.iloc[3:4,0]=np.nan
+print(df)
+print()
+print()
+print(df.isnull())
+print()
+print()
+print(df.fillna(0))
+print()
+print()
+print(df.isnull().sum())
+print()
+print()
+print(df[pd.isnull(df).any(axis=1)])
+print()
+print()
+print(df[pd.isnull(df).all(axis=1)])
+df.iloc[4:]=np.nan
+print()
+print()
+print(df[pd.isnull(df).all(axis=1)])
+print()
+print()
+print(df[df.a.isnull() & df.b.isnull()])
+print()
+print()
+print(df.dropna(how='any'))
+print()
+print()
+print(df.dropna(subset=['a','b'], how='all'))
+print()
+print()
+print(df.fillna(value={'a':3,'b':1,'c':9}))
+print()
+print()
+print(df.fillna(method='ffill')) #bfill to fil the values from below
+
+print()
+print()
+df=pd.DataFrame(np.random.randn(10,2), index=[1,2,0,9,3,4,7,8,6,5], columns=['C2','C1'])
+print(df.sort_index())
+
+print()
+print()
+print(df.sort_index(ascending=False))
+
+print()
+print()
+print(df.sort_index(axis=1))

@@ -1,0 +1,9 @@
+1. Create a folder by user input.
+2. Create a file by user input.
+3. Enter the content.
+4. Display message "FILE CREATED SUCCESSFULLY"
+5. If same file is created in same directory then "FILE ALREADY PRESENT" message is displayed
+   and "CHANGE THE FILE NAME"
+
+
+Remove all the files in the directory and then remove the directory.

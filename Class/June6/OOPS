@@ -1,0 +1,21 @@
+In procedure oriented programing memory is allocated to all the functions whereas,  in oops the class whose object is created
+is executed and is provided with memory
+
+Garbage value increases the time complexity by unnecessarily accompanying the required value hence increase the buffer load time
+
+Souls of memory: The minimum amount of garbage value that can be allowed before releasing all the value.
+why we have a a limit before freeing the memory why not remove the garbage value immediately?
+
+Performance based language
+
+Object is a current instance of our class
+
+self are  useful to return  the current instance of the class
+
+Python doesnt support method overloading but operator overloading
+Operator Overloading cant be done for string objects
+
+We have a two different class and same method in which child class method will override parent's class method
+
+Python supports multiple inheritance but not interface
+

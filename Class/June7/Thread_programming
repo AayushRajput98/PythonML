@@ -1,0 +1,4 @@
+Start() calls the run method automatically therefore it is important to include run method in thread
+
+Difference between run and simple method:
+-> 
